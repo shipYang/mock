@@ -1,0 +1,9 @@
+post,/high_risk_user/add,id=3&value=15311446193&test=555555,yangyang,hahaha,{code:1},200
+post,/high_risk_user/delete,value=15311446193&id=555555,,,{code:2},200
+get,/high_risk_user/delete,value=15311446193&id=555555,,,{code:3},200
+get,/high_risk_user,value=15311446193,,,{code:4},200
+post,/high_risk_user/add,,,,code:5},200
+post,/high_risk_user,,,,{code:6},200
+get,/high_risk_user/add,,,,{code:7},200
+get,/high_risk_user,,,,{code:8},200
+post,/high_risk_user/add,id=3&value=15311446193&test=555556,yangyang,hahaha,,404
